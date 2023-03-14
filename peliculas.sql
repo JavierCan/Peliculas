@@ -95,8 +95,18 @@ VALUES(8, "texas chainsaw massacre", 5, 7);
 insert INTO peliculas (id_pelicula, titulo, clasificacion)
 VALUES(9, "the shining", 4);
 
+insert INTO peliculas (id_pelicula, titulo, clasificacion)
+VALUES(10, "the exorcist", 4);
+
 --insertar en salas proyectando
 UPDATE salas SET proyectando = 1 WHERE id_sala = 3;
 UPDATE salas SET proyectando = 2 WHERE id_sala = 1;
 UPDATE salas SET proyectando = 3 WHERE id_sala = 2;
 UPDATE salas SET proyectando = 4 WHERE id_sala = 4;
+UPDATE salas SET proyectando = 5 WHERE id_sala = 9;
+UPDATE salas SET proyectando = 6 WHERE id_sala = 5;
+UPDATE salas SET proyectando = 7 WHERE id_sala = 6;
+UPDATE salas SET proyectando = 8 WHERE id_sala = 7;
+UPDATE salas SET proyectando = 9 WHERE id_sala = 8;
+
+
